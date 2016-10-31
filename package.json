@@ -1,0 +1,19 @@
+{
+  "name": "yokinu",
+  "version": "0.0.1",
+  "description": "coming soon",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenjitsuGame/yokinu.git"
+  },
+  "author": "Pascal Luttgens <pascal.luttgens@hotmail.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GenjitsuGame/yokinu/issues"
+  },
+  "homepage": "https://github.com/GenjitsuGame/yokinu#readme"
+}
