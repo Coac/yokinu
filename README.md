@@ -9,6 +9,9 @@
 Only [google play music](https://play.google.com/music/) is currently available, you will need a google account with
 uploaded music on it to use it.
 
+To set up your google account and contribute to the project, you can create a `config/config.json` and put your
+credentials here. It won't be pushed as it's in the [.gitignore](.gitignore#L53)
+
 ## Run
 
 - `npm run dev`
