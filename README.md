@@ -18,4 +18,4 @@ credentials here. It won't be pushed as it's in the [.gitignore](.gitignore#L53)
 
 ## Tests
 
-[](http://files.gamebanana.com/img/ico/sprays/57822c19e1ad1.png)
+![](http://files.gamebanana.com/img/ico/sprays/57822c19e1ad1.png)
