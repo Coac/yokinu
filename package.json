@@ -4,7 +4,8 @@
   "description": "coming soon",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "nodemon -w . --harmony"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/GenjitsuGame/yokinu/issues"
   },
-  "homepage": "https://github.com/GenjitsuGame/yokinu#readme"
+  "homepage": "https://github.com/GenjitsuGame/yokinu#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "nedb": "^1.8.0",
+    "playmusic": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
 }

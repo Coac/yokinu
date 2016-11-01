@@ -47,3 +47,7 @@ jspm_packages
 .idea
 
 .DS_Store
+
+# Yokinu
+music
+config/config.json

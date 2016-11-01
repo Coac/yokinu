@@ -1,2 +1,5 @@
 # yokinu
-coming soon
+
+**JON**
+
+**CHECK**
