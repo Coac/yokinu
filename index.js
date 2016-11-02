@@ -14,9 +14,9 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/gmusic', require('./modules/gmusic'));
 
 app.use((err, req, res, next) => {
-    console.log(err);
-    res.send(err.stack);
-})
+  console.log(err);
+  res.send(err.stack);
+});
 
 const port = process.env.PORT || 4100;
 const server = http.createServer(app);
