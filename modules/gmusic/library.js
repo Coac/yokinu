@@ -1,11 +1,13 @@
 'use strict';
 
-const pm = new (require('playmusic'))();
-const Promise = require('bluebird');
-const Track = require('./track');
+import PlayMusic from 'playmusic';
+import Promise from 'bluebird';
+import Track from './track';
+const pm = new PlayMusic();
+
 Promise.promisifyAll(pm);
 
-module.exports = class Library {
+export default class Library {
   constructor () {
     this.tracks = [];
     this.artists = new Map();
@@ -22,7 +24,7 @@ module.exports = class Library {
     (await fetchTracks(null, 1)).forEach(gTrack => this.tracks.push(new Track(gTrack)));
     return this.tracks;
   }
-};
+}
 
 async function fetchTracks (token, i) {
   if (i === 2) return [];

@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = class Playlist {
+export default class Playlist {
   constructor () {
 
   }
-};
+}

@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = class Track {
+export default class Track {
   constructor (track) {
     this.id = track.id;
     this.title = track.title;
@@ -13,4 +13,4 @@ module.exports = class Track {
   getStream () {
 
   }
-};
+}
